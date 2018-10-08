@@ -1,0 +1,31 @@
+Secuencia de operación del programa.
+
+Este documento especifica el modo en el que se espera que funcione el programa de asignación de rutas. Existen casos de uso
+previamente documentados, pero es muy posible que haya hecho falta alguna clase de caso de uso en el momento de definir el 
+documento presentado. Los casos con TBD no tienen una funcionalidad de uso definida.
+
+1)Abre el formulario de login - TBD
+  1.1)Primera vez que se ejecuta el programa - TBD
+2)Si el login es válido abre un formulario, de acuerdo con el perfil de usuario
+2.1)Abre formulario de Administrador - TBD
+  2.1.1)Creación de nuevos usuarios - CU 001
+  2.1.2)Modificar/eliminar usuarios - CU 003
+  2.1.3)Desbloqueo de usuarios - TBD
+  2.1.4)Visualizar listado de rutas - CU 008
+  2.1.5)Creación/Modificacion de nuevos vehiculos - CU 004
+  2.1.6)Importar listado de empleados -TBD
+2.2)Abre formulario de Controlador de ruta - TBD
+  2.2.1)Creación/Modificacion de nuevos vehiculos - CU 004
+  2.2.2)Visualiza listado de empleados por turno - TBD
+  2.2.3)Visualiza listado de conductores y vehiculos por turno - TBD
+  2.2.4)Solicita vehículos adicionales - CU 005
+  2.2.5)Visualiza listado de rutas - CU 008
+  2.2.6)Agrega novedades vehiculo - CU 007
+  2.2.7)Modificar direccion empleado - TBD
+2.3)Abre formulario de Conductor - TBD
+  2.3.1)Agrega novedades vehiculo - CU 007
+  2.3.2)Visualiza ruta asignada - CU 008
+2.4)Abre formulario de Empleado - TBD
+  2.4.1)Solicitar una ruta no programada - CU 002
+  2.4.2)Agregar novedades empleado - CU 007
+  2.4.3)Visualizar ruta asignada - CU 008 
