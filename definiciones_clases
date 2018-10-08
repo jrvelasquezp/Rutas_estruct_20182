@@ -1,0 +1,37 @@
+Archivo con las posibles definiciones para las clases.
+Nota: NO ES UN ARCHIVO CON CÓDIGO FUENTE
+Clases base. Corresponden principalmente (pero no unicamente) a los actores del programa de rutas.
+La definición de los parámetros que pueda tener una clase base es libre de modificación, pero debe corresponder con una
+versión en código.
+La abreviatura TBD corresponde a TO BE DETERMINED. Si algo no ha sido definido, se recomienda dejarlo en TBD. Si alguien cambia
+algo de la definición, se remueve el TBD
+Para cada clase se recomienda
+-Nombre clase
+-Implementación en el hub: Si hay codigo fuente o si no TBD
+-Variables
+-Constructor(es)
+-Métodos: En esta sección solamente los nombres de los métodos, junto con las variables (como el constructor de ejemplo)
+-Preguntas abiertas de diseño: Si existe alguna pregunta o modificación que se quiera hacer y no se implemente en código, o algún cambio que
+se quiera hacer consultando previamente, aquí es el espacio. La clase Administrador es el ejemplo.
+Clase Administrador
+Implementación en el Hub:TBD 
+Variables
+-String nombre
+-String apellido
+-long ID
+-String nombre_usuario
+-String contrasena
+Constructor
+-Administrador (string nam, string lastn, long doc)
+Métodos
+-TBD
+Preguntas abiertas de diseño
+¿Se requiere una dirección de correo electrónico?
+Clase Empleado
+TBD
+Clase Controlador
+TBD
+Clase Vehiculo
+TBD
+Clase Conductor
+TBD
