@@ -14,7 +14,7 @@ Para cada clase se recomienda
 -Preguntas abiertas de diseño: Si existe alguna pregunta o modificación que se quiera hacer y no se implemente en código, o algún cambio que
 se quiera hacer consultando previamente, aquí es el espacio. La clase Administrador es el ejemplo.
 Clase Administrador
-Implementación en el Hub:TBD 
+Implementación en el Hub:Administrador.java 
 Variables
 -String nombre
 -String apellido
@@ -27,6 +27,7 @@ Métodos
 -TBD
 Preguntas abiertas de diseño
 ¿Se requiere una dirección de correo electrónico?
+¿Se requiere una clase diferente que genere aleatoriamente el usuario y el password de un usuario?
 Clase Empleado
 TBD
 Clase Controlador
