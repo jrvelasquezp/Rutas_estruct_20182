@@ -21,10 +21,22 @@ Variables
 -long ID
 -String nombre_usuario
 -String contrasena
+-boolean bloqueado
 Constructor
--Administrador (string nam, string lastn, long doc)
+  Administrador (string nam, string lastn, long doc)
 Métodos
--TBD
+  public void setNombre(String nam)
+	public void setApellido(String lastn)
+	public void setID(long doc)
+	public void setNomUsuario(String user)
+	public void setPwd(String pwd)
+	public void setBloqueo(boolean bloqueo)
+	public String getNombre()
+	public String getApellido()
+	public long getID()
+	public String getNomUsuario()
+	public String getPwd()
+	public boolean getBloqueo()
 Preguntas abiertas de diseño
 ¿Se requiere una dirección de correo electrónico?
 ¿Se requiere una clase diferente que genere aleatoriamente el usuario y el password de un usuario?
